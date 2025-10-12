@@ -1,14 +1,19 @@
 let gameNumber;
 let playerChoice;
+let record = [];
 
 function getNumber () {
-    return num = Math.floor(Math.random() * 100)
+    return num = Math.floor((Math.random() * 100) + 1)
 }
 
 // Using .prompt for now because we haven't touched DOM as yet
 
 function getChoice () {
-    prompt(playerChoice, 'Enter a number')
-    return playerChoice;
+    return playerChoice = prompt('Enter a number')
+    
 }
-console.log(getChoice(playerChoice))
+
+function recordChoice () {
+    
+}
+console.log(getChoice())
